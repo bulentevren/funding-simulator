@@ -120,7 +120,7 @@
 		<div
 			on:click={() => (show = true)}
 			transition:box_reverse
-			class="bg-bg text-sm cursor-pointer hover:border-borderDarkHover active:border-borderDark border-2 border-borderDark flex items-center gap-3 py-2 px-3 rounded-xl mx-auto w-fit max-sm:w-[350px] max-sm:justify-center"
+			class="bg-bg text-sm cursor-pointer hover:border-borderDarkHover active:border-borderDark border-2 border-borderDark flex items-center gap-3 py-2 px-3 rounded-xl mx-auto w-fit max-sm:w-[350px] max-sm:justify-center bg-white"
 		>
 			<div>
 				<span class="mr-2 text-textLight max-sm:block max-sm:text-center max-sm:mb-1">Options</span>

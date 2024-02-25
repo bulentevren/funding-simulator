@@ -49,7 +49,7 @@ export const formatAmount = (num: number) => {
 	if (afterDec) {
 		result += '.' + afterDec;
 	}
-	return '$' + parseFloat(result) + suffix;
+	return '€' + parseFloat(result) + suffix;
 };
 
 const easing = cubicOut;

@@ -105,7 +105,7 @@
 								resetEquities();
 								fixNames();
 							}}
-							class=" select-none text-xs text-textLight p-2 rounded-lg hover:bg-borderLight text-center mt-1 active:translate-y-[1px]"
+							class="bg-white select-none text-xs text-textLight p-2 rounded-lg hover:bg-borderLight text-center mt-1 active:translate-y-[1px]"
 						>
 							Remove
 						</button>
@@ -115,7 +115,7 @@
 		</div>
 
 		<div class="mt-6">
-			<Button onclick={addFounder}>Add founder</Button>
+			<Button class='primary-buttton' onclick={addFounder}>Add founder</Button>
 		</div>
 	</div>
 	<div class="h-[30px] my-2 flex flex-col items-center gap-1 justify-end text-xs text-dangerLight">

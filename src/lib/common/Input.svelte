@@ -107,6 +107,6 @@
 			type === 'percent' ? 'right-[12px]' : 'left-[12px]'
 		)}
 	>
-		{type === 'percent' ? '%' : '$'}
+		{type === 'percent' ? '%' : '€'}
 	</div>
 </div>

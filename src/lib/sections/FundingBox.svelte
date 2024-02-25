@@ -371,7 +371,7 @@
 							>
 						</div>
 						<div
-							class="text-xs flex flex-col justify-between gap-0 border-2 border-borderDark rounded-xl"
+							class="text-xs flex flex-col justify-between gap-0 border-2 border-borderDark rounded-xl bg-white"
 						>
 							<div
 								class="px-3 py-2 flex items-center justify-between gap-4 border-b-2 border-borderDark last:border-none"
@@ -470,7 +470,7 @@
 									showProRata = false;
 								}}
 								class="h-7 w-7 -m-2 inline-flex items-center justify-center rounded-full hover:bg-borderLight mr-1 text-textLight hover:text-textDark active:bg-borderDark"
-								>{'<-'}</button
+								>{'<'}</button
 							>
 						</div>
 						<div class="w-[200px] pt-5 shrink-0 max-sm:pl-5 max-sm:w-full max-sm:pt-2">

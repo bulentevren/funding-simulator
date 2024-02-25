@@ -44,7 +44,7 @@
 </script>
 
 <div class="flex flex-col items-center z-[1] w-max bg-bg pl-4 -ml-4">
-	<div class="flex flex-col text-sm rounded-lg border-[3px] p-3 py-2 border-borderLight">
+	<div class="flex flex-col text-sm rounded-lg border-[3px] p-3 py-2 border-borderLight bg-white">
 		{#each foundersLines as line}
 			<div
 				class="group/line hover:bg-borderLight p-0.5 px-2 -mx-2 flex text-xs gap-6 justify-between border-borderLight last:border-none"

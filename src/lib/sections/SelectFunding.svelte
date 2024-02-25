@@ -44,8 +44,8 @@
 	<div class="flex justify-center mb-6">
 		<img
 			class="rounded-lg cursor-pointer [box-shadow:0_2px_#c94709] active:translate-y-[2px] active:shadow-none"
-			src="/yc.png"
-			alt="YC"
+			src="/favicon.png"
+			alt="CF"
 		/>
 	</div>
 </div>

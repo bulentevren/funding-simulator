@@ -38,9 +38,9 @@
 			goto('/', { replaceState: true });
 			$loadedData = false;
 		}}
-		class="__invertable max-sm:hidden fixed top-[30px] left-[30px] text-textLight text-xl w-10 h-10 rounded-xl hover:bg-borderLight active:bg-borderDark z-[3]"
+		class="bg-white __invertable max-sm:hidden fixed top-[30px] left-[30px] text-textLight text-xl w-10 h-10 rounded-xl hover:bg-borderLight active:bg-borderDark z-[3]"
 	>
-		{'<-'}
+		{'<'}
 	</button>
 {/if}
 
@@ -93,7 +93,7 @@
 			theme = newTheme;
 			document.documentElement.setAttribute('data-theme', newTheme);
 		}}
-		class="w-10 h-10 flex items-center justify-center rounded-xl hover:bg-borderLight active:bg-borderDark"
+		class="bg-white w-10 h-10 flex items-center justify-center rounded-xl hover:bg-borderLight active:bg-borderDark"
 	>
 		{#if theme === 'dark'}
 			<MoonIcon />
@@ -101,25 +101,4 @@
 			<SunIcon />
 		{/if}
 	</button>
-	<a
-		href="https://github.com/dabateam/funding-simulator"
-		target="__blank"
-		class=" w-10 h-10 flex items-center justify-center rounded-xl hover:bg-borderLight active:bg-borderDark"
-	>
-		<GithubIcon />
-	</a>
-	<a
-		href="https://x.com/webstuff"
-		target="__blank"
-		class="w-10 h-10 flex items-center justify-center rounded-xl hover:bg-borderLight active:bg-borderDark"
-	>
-		<TwitterIcon />
-	</a>
-	<a
-		href="https://www.nowayinc.com"
-		target="__blank"
-		class="w-10 h-10 flex items-center justify-center rounded-xl hover:bg-borderLight active:bg-borderDark"
-	>
-		<DabaLogo />
-	</a>
 </div>

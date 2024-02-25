@@ -25,7 +25,7 @@
 
 <div
 	on:click={onclick}
-	class="py-2 px-3 rounded-lg border-2 border-borderDark active:translate-y-[1px] text-xs cursor-pointer hover:border-borderDarkHover"
+	class="py-2 px-3 rounded-lg border-2 border-borderDark active:translate-y-[1px] text-xs cursor-pointer hover:border-borderDarkHover bg-white"
 >
 	<div class="flex flex-col gap-1">
 		{#if name}
